@@ -9,6 +9,15 @@ void main()
 
 //SECTION A
 
+
+//1. map
+
+//  Map<String, dynamic> person = 
+// {
+//     "name": "John","age": 30,"isStudent": false
+//   };
+//      print(person);
+
 //2. print even number upto 20
 
 
@@ -68,6 +77,8 @@ void main()
   //   }
   //   print(num);
   // }
+
+
 
 
 
