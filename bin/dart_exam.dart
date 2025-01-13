@@ -12,11 +12,11 @@ void main()
 
 //1. map
 
-//  Map<String, dynamic> person = 
+//  Map<String, dynamic> student = 
 // {
 //     "name": "John","age": 30,"isStudent": false
 //   };
-//      print(person);
+//      print(student);
 
 //2. print even number upto 20
 
