@@ -3,8 +3,8 @@ import 'package:dart_exam/dart_exam.dart' as dart_exam;
 void main()
 {
 
-List<int> num = [12, 45, 7, 89, 23];
-print("largest is: $num");
+// List<int> num = [12, 45, 7, 89, 23];
+// print("largest is: $num");
 
 
 //SECTION A
@@ -37,22 +37,22 @@ print("largest is: $num");
 
 //5. function
 
-int largest(List<int> num)
- {
-  if (num.isEmpty)
-  {
-    print('list must be not empty');
-  }
-  int largest = num[0];
-  for (int number in num) 
-  {
-    if (number > largest) 
-    {
-      largest = number;
-    }
-  }
-  return largest;
-}
+// int largest(List<int> num)
+//  {
+//   if (num.isEmpty)
+//   {
+//     print('list must be not empty');
+//   }
+//   int largest = num[0];
+//   for (int number in num) 
+//   {
+//     if (number > largest) 
+//     {
+//       largest = number;
+//     }
+//   }
+//   return largest;
+// }
 
 
 //6. patter for loop
@@ -70,12 +70,6 @@ int largest(List<int> num)
   // }
 
 
-
-//  Map<String, dynamic> person = 
-// {
-//     "name": "John","age": 30,"isStudent": false
-//   };
-//      print(person);
 
 }
 
