@@ -1,4 +1,5 @@
 import 'package:dart_exam/dart_exam.dart' as dart_exam;
+import 'dart:io';
 
 void main()
 {
@@ -12,11 +13,11 @@ void main()
 
 //1. map
 
-//  Map<String, dynamic> student = 
+//  Map<String, dynamic> person = 
 // {
 //     "name": "John","age": 30,"isStudent": false
 //   };
-//      print(student);
+//      print(person);
 
 //2. print even number upto 20
 
@@ -66,8 +67,6 @@ void main()
 
 //6. patter for loop
 
-
-  
   // for (int i = 1; i <= 4; i++) 
   // {
   //   String num = '';
@@ -80,8 +79,56 @@ void main()
 
 
 
+//SECTION B
 
+
+
+//3
+
+
+//   List<Map> books = [];
+//   print("welcome to library manafement system!");
+//   for(;;){
+//   print("""choose an option
+  
+//   1.Add Book
+//   2.Edit Book
+//   3.Delete Book
+//   4.GetcAll Books""");
+
+// stdout.write("Enter your choice : ");
+// int? input = int.tryParse(stdin.readLineSync()!);
+
+// stdout.write("Do you want to continue(yes/no)");
+// String userchoice = stdin.readLineSync()!;
+
+// if (userchoice.toLowerCase() == "no")
+// {
+//   break;
+// }
+//   }
+
+// Map addBook()
+// {
+//   stdout.write("enter your book name:");
+//   String bookName = stdin.readLineSync()!;
+//   stdout.write("enter author name:");
+//   String authorName = stdin.readLineSync()!;
+//   Map newBook = {"name": bookName, "author": authorName};
+//   return newBook;
+// }
+
+
+// void getAllBooks(List<Map> books)
+// {
+// for (int index = 0; index <books.length; index++)
+// {
+// print("book ${index + 1} : \n name : ${books[index]["name"]}, year : ${books[index]["author"]}");
+
+// }
+// }
 
 }
+
 
 
