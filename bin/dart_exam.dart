@@ -117,6 +117,15 @@ void main()
 //   Map newBook = {"name": bookName, "author": authorName};
 //   return newBook;
 // }
+// Map editBook()
+// {
+//   stdout.write("edit your book name:");
+//   String bookName = stdin.readLineSync()!;
+//   stdout.write("edit author name:");
+//   String authorName = stdin.readLineSync()!;
+//   Map newBook = {"name": bookName, "author": authorName};
+//   return newBook;
+// }
 
 
 // void getAllBooks(List<Map> books)
